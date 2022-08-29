@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-image: url('https://picsum.photos/1400/800?grayscale');
+    background-repeat: no-repeat;
+}
+nav{
+    height: 6%;
+    width: 100%;
+    border-bottom: 3px solid  wheat;
+    background: whitesmoke;
+    
+
+} 
+ul{
+    margin-top: 1%;
+    margin-left: 30%;
+ }
+ 
+ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: black;    
+}
+
+ul li a:hover{
+    color: tomato;
+}
+
+.second{
+    
+    height: 80%;
+    width:50%;
+    float: left;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 2rem;
+    background: whitesmoke;
+
+}
+
+.basic{
+    
+    height: 80%;
+    width:50%;
+    float: left;
+    font-family: monospace;
+    text-align: left;
+    padding-top: 10%;
+    font-size: 1.8rem;
+    background: whitesmoke;
+ }
+
+ .edu{
+    height: 100%;
+    width:100%;
+    float: left; 
+    background: whitesmoke;
+    text-align: left;
+    
+ }
